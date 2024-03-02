@@ -1,3 +1,5 @@
+@use '../util/' as u;
+@use 'colors' as c;
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -10,6 +12,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 26%);
+  font-family: u.$font;
+  background-color: c.$color;
   color: hsl(0, 0%, 100%);
+  ;
+  
 }
