@@ -3,9 +3,9 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  gap: 40px;
-  /* max-width: 1000px; */
-  width: min(100% - 40px, 1000px);
+  gap: 40;
+  /* max-width: 1000; */
+  width: min(100% - 40, 1000);
   margin-inline: auto;
 
 
@@ -17,7 +17,7 @@
 
   &__main, 
   &__sidebar {
-    padding: 40px;
+    padding: 40;
   }
  
   &__main {
